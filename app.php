@@ -3,7 +3,7 @@
 require __DIR__.'/vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
-use Blog\GenerateD3NodesCommand;
+use App\GenerateD3NodesCommand;
 
 $application = new Application();
 

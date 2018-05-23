@@ -1,6 +1,6 @@
 {
  "autoload": {
-        "psr-4": {"Blog\\": "src/"}
+        "psr-4": {"App\\": "src/"}
     },
     "require": {
         "symfony/console": "^4.0",
