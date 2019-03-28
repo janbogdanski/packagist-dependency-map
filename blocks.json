@@ -1,0 +1,183 @@
+{"nodes":[
+  {
+    "id": "symfony\/symfony",
+    "group": 1
+  },
+  {
+    "id": "doctrine\/inflector",
+    "group": 5
+  },
+  {
+    "id": "doctrine\/cache",
+    "group": 5
+  },
+  {
+    "id": "twig\/twig",
+    "group": 5
+  },
+  {
+    "id": "psr\/cache",
+    "group": 5
+  },
+  {
+    "id": "doctrine\/annotations",
+    "group": 5
+  },
+  {
+    "id": "fig\/link-util",
+    "group": 5
+  },
+  {
+    "id": "symfony\/intl",
+    "group": 5
+  },
+  {
+    "id": "psr\/container",
+    "group": 5
+  },
+  {
+    "id": "psr\/log",
+    "group": 5
+  },
+  {
+    "id": "symfony\/polyfill-mbstring",
+    "group": 5
+  },
+  {
+    "id": "doctrine\/common",
+    "group": 5
+  },
+  {
+    "id": "doctrine\/lexer",
+    "group": 5
+  },
+  {
+    "id": "psr\/link",
+    "group": 5
+  },
+  {
+    "id": "psr\/simple-cache",
+    "group": 5
+  },
+  {
+    "id": "doctrine\/collections",
+    "group": 5
+  },
+  {
+    "id": "symfony\/polyfill-intl-icu",
+    "group": 5
+  },
+  {
+    "id": "symfony\/polyfill-php72",
+    "group": 5
+  }
+],
+  "links":[
+
+
+    {
+      "source": "symfony\/symfony",
+      "target": "doctrine\/common",
+      "value": 1
+    },
+    {
+      "source": "symfony\/symfony",
+      "target": "fig\/link-util",
+      "value": 1
+    },
+    {
+      "source": "symfony\/symfony",
+      "target": "psr\/cache",
+      "value": 1
+    },
+    {
+      "source": "symfony\/symfony",
+      "target": "psr\/container",
+      "value": 1
+    },
+    {
+      "source": "symfony\/symfony",
+      "target": "psr\/link",
+      "value": 1
+    },
+    {
+      "source": "symfony\/symfony",
+      "target": "psr\/log",
+      "value": 1
+    },
+    {
+      "source": "symfony\/symfony",
+      "target": "psr\/simple-cache",
+      "value": 1
+    },
+    {
+      "source": "symfony\/symfony",
+      "target": "symfony\/polyfill-intl-icu",
+      "value": 1
+    },
+    {
+      "source": "symfony\/symfony",
+      "target": "symfony\/polyfill-mbstring",
+      "value": 1
+    },
+    {
+      "source": "symfony\/symfony",
+      "target": "symfony\/polyfill-php72",
+      "value": 1
+    },
+    {
+      "source": "symfony\/symfony",
+      "target": "twig\/twig",
+      "value": 1
+    },
+    {
+      "source": "twig\/twig",
+      "target": "symfony\/polyfill-mbstring",
+      "value": 1
+    },
+    {
+      "source": "doctrine\/annotations",
+      "target": "doctrine\/lexer",
+      "value": 1
+    },
+    {
+      "source": "fig\/link-util",
+      "target": "psr\/link",
+      "value": 1
+    },
+    {
+      "source": "symfony\/intl",
+      "target": "symfony\/polyfill-intl-icu",
+      "value": 1
+    },
+    {
+      "source": "doctrine\/common",
+      "target": "doctrine\/annotations",
+      "value": 1
+    },
+    {
+      "source": "doctrine\/common",
+      "target": "doctrine\/cache",
+      "value": 1
+    },
+    {
+      "source": "doctrine\/common",
+      "target": "doctrine\/collections",
+      "value": 1
+    },
+    {
+      "source": "doctrine\/common",
+      "target": "doctrine\/inflector",
+      "value": 1
+    },
+    {
+      "source": "doctrine\/common",
+      "target": "doctrine\/lexer",
+      "value": 1
+    },
+    {
+      "source": "symfony\/polyfill-intl-icu",
+      "target": "symfony\/intl",
+      "value": 1
+    }
+  ]}
